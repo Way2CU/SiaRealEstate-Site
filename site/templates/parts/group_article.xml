@@ -1,0 +1,24 @@
+<document>
+	<cms:module
+		name="articles"
+		action="show_list"
+		group="$params['id']"
+		template="parts/article.xml"
+		cms:eval="group"
+		/>
+	<h2><cms:var param="title" multilanguage="yes"/></h2>
+	<a
+		href="url_Make('', 'asset-yaqov')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="menu_yaqov"/>
+	</a>
+	<a
+		href="url_Make('', 'asset-moshav')"
+		cms:eval="href"
+		cms:optional="class"
+		>
+		<cms:text constant="menu_moshav"/>
+	</a>		
+</document>
