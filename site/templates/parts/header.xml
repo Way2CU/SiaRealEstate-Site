@@ -3,9 +3,9 @@
 <document>
 	<header>
 		<div class="header_container">
-			<div class="site logo">
+			<div class="site_logo">
 				<a
-					class="$section == 'home' ? 'active' : false"
+					class="logo"
 					href="url_Make('', 'home')"
 					cms:eval="href"
 					cms:optional="class"
@@ -17,10 +17,18 @@
 					class="social_link"
 					>
 					<cms:text constant="facebook"/>
+					<cms:svg file="../images/facebook.svg"/>
 				</a>
 			</div>
 
 			<div class="navigation">
+				<a
+					href="'tel:'.urlencode(Language::getText('yaniv_number'))"
+					cms:eval="href"
+					class="phone"
+					>
+					<cms:text constant="phone_yaniv"/>
+				</a>
 				<a
 					href="'tel:'.urlencode(Language::getText('ina_number'))"
 					cms:eval="href"
@@ -29,13 +37,6 @@
 					<cms:text constant="phone_ina"/>
 				</a>
 
-				<a
-					href="'tel:'.urlencode(Language::getText('yaniv_number'))"
-					cms:eval="href"
-					class="phone"
-					>
-					<cms:text constant="phone_yaniv"/>
-				</a>
 
 				<nav>
 
