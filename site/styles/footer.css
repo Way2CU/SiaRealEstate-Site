@@ -1,0 +1,21 @@
+/**
+ * Footer Style Sheet
+ * Sia RealEstate-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ footer {
+ 	display: block;
+ 	text-align: center;
+ 	margin-top: 135px;
+ }
+
+ div.footer_wrap {
+ 	display: block;
+ 	background-image: url(../images/footer-background-03.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	min-height: 700px;
+ }
