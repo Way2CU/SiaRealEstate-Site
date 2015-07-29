@@ -1,0 +1,174 @@
+/**
+ * Header Style Sheet
+ * Sia RealEstate-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+header {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color:white;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+	z-index: 10000;
+}
+
+header div.header_container {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;	
+}
+
+header div.site_logo {
+ 	display: table-cell;
+ 	vertical-align: middle;
+ 	width: 50%;
+}
+
+header div.site_logo a.logo {
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../images/logo-color.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 170px 98px;
+	width: 170px;
+	height: 98px;
+}
+
+header div.site_logo a.social_link {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 25px;
+	margin-right: 40px;
+	color: #3b5997;
+	text-decoration: none;
+	font-weight: 700;
+	transition:all 0.3s;
+}
+
+header div.site_logo a.social_link:hover {
+	color:#1A59DD;
+}
+
+
+header div.site_logo a.social_link svg {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	transition:all 0.3s;
+}
+
+header div.site_logo a.social_link:hover svg {
+	fill:#1A59DD;
+}
+header div.navigation {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	width: 50%;
+}
+
+header div.navigation > a {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 70px;
+	padding-left: 20px;
+	color: #34495e;
+	line-height: 1.2em;
+	text-decoration: none;
+	position: relative;
+	transition:all 0.3s;
+}
+
+header div.navigation > a:hover {
+	color:#e67e22;
+}
+
+header div.navigation > a:before {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 0%;
+	height: 1px;
+	background-color:#e67e22;
+	transition:all 0.3s; 
+}
+
+header div.navigation > a:hover:before {
+	width: 100%;
+}
+
+header div.navigation > a:first-of-type {
+	background-image: url(../images/sean.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 60px 60px;
+	border-left: 1px solid black;
+}
+
+header div.navigation > a:last-of-type {
+	background-image: url(../images/inna.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 60px 60px;
+}
+
+header div.navigation nav {
+	display: block;
+	text-align: right;
+	width: 100%;
+}
+
+header div.navigation nav a {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 25%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #34495e;
+	text-decoration: none;
+	background-color: white;
+	position: relative;
+	transition: all 0.3s;
+	z-index: 1;
+}
+
+header div.navigation nav a:hover {
+	color:white;
+}
+
+header div.navigation nav a:hover:before {
+	opacity: 1;
+	height: 100%;
+}
+
+header div.navigation nav a:before {
+	content:"";
+	position: absolute;
+	bottom:0%;
+	left: 0px;
+	height:10px;
+	width: 100%;
+	opacity: 0;
+	background-color:#e67e22;
+	transition:all 0.3s;
+	z-index: -1; 
+}
+
+header div.navigation nav a.active:before {
+	opacity: 1;
+}
+
