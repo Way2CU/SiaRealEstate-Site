@@ -1,0 +1,6 @@
+<document>
+	<article>
+		<cms:markdown param="content" multilanguage="yes"/>
+		<h4><cms:var param="title" multilanguage="yes"/></h4>
+	</article>
+</document>
