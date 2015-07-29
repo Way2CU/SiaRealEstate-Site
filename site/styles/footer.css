@@ -19,3 +19,173 @@
  	background-position: center top;
  	min-height: 700px;
  }
+
+div.footer_wrap h2 {
+	display: block;
+	margin-top: 20px;
+	padding-top: 180px;
+	background-image: url(../images/logo-white.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 260px 150px;
+	color: white;
+}
+
+
+div.form_wrap {
+	display: block;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+div.form_wrap p {
+	display: block;
+	padding-top: 20px;	
+	padding-bottom: 10px;
+	color:white;
+}
+
+form {
+	display: block;
+}
+
+form label {
+	display: inline-block;
+	vertical-align: middle;
+	border:1px solid white;
+	position: relative;
+}
+
+form label:first-of-type:before {
+	content: "";
+	position: absolute;
+	top:5px;
+	right:-5px;
+	background-image: url(../images/svg-icons.svg);
+	background-repeat: no-repeat;
+	background-position: -50px 0px;
+	background-size:200px 50px;
+	width: 50px;
+	height: 50px;
+}
+
+form label:nth-of-type(2):before {
+	content: "";
+	position: absolute;
+	top:5px;
+	right:-5px;
+	background-image: url(../images/svg-icons.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size:200px 50px;
+	width: 50px;
+	height: 50px;
+}
+
+form label:first-of-type {
+	border-radius: 0px 8px 8px 0px;
+}
+
+form label input {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	border:none;
+	color:white;
+  	background-color: rgba(255, 255, 255, 0.2);
+	transition:all 0.3s
+}
+
+form label select {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	padding-right: 20px;
+	border: none;
+	color:white;
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: all 0.3s;
+}
+
+form label select option {
+	margin: 0px;
+	padding: 0px;
+	color:black;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+form div.controls {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+form div.controls button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border:none;
+	color:white;
+	border-radius: 8px 0px 0px 8px;
+	border:1px solid  #27ae60;
+  	background-color:#2ecc71;
+	transition:all 0.3s;
+	cursor:pointer;	
+}
+
+form div.controls button:hover {
+	background-color: #e67e22;
+	border:1px solid white;
+}
+
+
+footer div.copyright {
+	display: block;
+	background-color: black;
+	direction: ltr;
+}
+
+footer div.copyright span {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	background-image: url(../images/way2cu-color.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px 34.5px;
+	font-size: 0.9em;
+	color: white;
+	text-align: left;
+	width: 270px;
+}
+
+footer div.copyright span a {
+	display: inline-block;
+	padding-left: 5px;
+	text-decoration: underline;
+	color:#449bb5;
+	transition:all 0.3s;
+}
+
+footer div.copyright span a:hover {
+	color:#5bc2d8;
+}
