@@ -2,6 +2,79 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<header>
-		
+		<div class="header_container">
+			<div class="site logo">
+				<a
+					class="$section == 'home' ? 'active' : false"
+					href="url_Make('', 'home')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+				</a>
+
+				<a 
+					href="javascript:void(0)"
+					class="social_link"
+					>
+					<cms:text constant="facebook"/>
+				</a>
+			</div>
+
+			<div class="navigation">
+				<a
+					href="'tel:'.urlencode(Language::getText('ina_number'))"
+					cms:eval="href"
+					class="phone"
+					>
+					<cms:text constant="phone_ina"/>
+				</a>
+
+				<a
+					href="'tel:'.urlencode(Language::getText('yaniv_number'))"
+					cms:eval="href"
+					class="phone"
+					>
+					<cms:text constant="phone_yaniv"/>
+				</a>
+
+				<nav>
+
+					<a
+						class="$section == 'home' ? 'active' : false"
+						href="url_Make('', 'home')"
+						cms:eval="href"
+						cms:optional="class"
+						>
+						<cms:text constant="menu_home"/>
+					</a>
+					<a
+						class="$section == 'about' ? 'active' : false"
+						href="url_Make('', 'about')"
+						cms:eval="href"
+						cms:optional="class"
+						>
+						<cms:text constant="menu_about"/>
+					</a>
+
+					<a
+						class="$section == 'asset-yaqov' ? 'active' : false"
+						href="url_Make('', 'asset-yaqov')"
+						cms:eval="href"
+						cms:optional="class"
+						>
+						<cms:text constant="menu_yaqov"/>
+					</a>
+					<a
+						class="$section == 'asset-moshav' ? 'active' : false"
+						href="url_Make('', 'asset-yaqov')"
+						cms:eval="href"
+						cms:optional="class"
+						>
+						<cms:text constant="menu_moshav"/>
+					</a>
+
+				</nav>
+			</div>
+		</div>
 	</header>
 </document>
