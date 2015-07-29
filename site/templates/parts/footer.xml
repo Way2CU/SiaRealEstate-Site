@@ -13,7 +13,7 @@
 			</div>
 			<h2><cms:text constant="footer_title"/></h2>
 		</div>
-		<div class="copyright" >
+		<div class="copyright">
 			<span><cms:text constant="copyright"/></span>
 		</div>
 	</footer>
