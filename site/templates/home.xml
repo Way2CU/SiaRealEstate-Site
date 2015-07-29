@@ -10,6 +10,14 @@
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:template file="parts/header.xml"/>
+			<section class="feature">
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="features"
+					template="parts/group_article.xml"
+				/>
+			</section>
 			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>
