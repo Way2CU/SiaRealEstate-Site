@@ -67,7 +67,7 @@
 					</a>
 					<a
 						class="$section == 'asset-moshav' ? 'active' : false"
-						href="url_Make('', 'asset-yaqov')"
+						href="url_Make('', 'asset-moshav')"
 						cms:eval="href"
 						cms:optional="class"
 						>
