@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<footer>
+		<div class="footer_wrap">
+			<div class="form_wrap">
+				<p><cms:text constant="form_title"/></p>
+				<cms:module
+					name="contact_form"
+					action="show"
+					text_id="contact"
+					/>
+			</div>
+			<h2><cms:text constant="footer_title"/></h2>
+		</div>
+		<div class="copyright" >
+			<span><cms:text constant="copyright"/></span>
+		</div>
+	</footer>
+</document>
