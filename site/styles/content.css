@@ -18,10 +18,39 @@ h2 {
 	font-size: 2.3em;
 }
 
+section.top_page {	
+	display: block;
+	margin-top: 140px;
+	text-align: center;
+	background-image: url(../images/header-background-03.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 700px;
+	min-height: 700px;
+	position: relative;
+}
+
+section.top_page h1 {
+	display: block;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	color:#3b5998;
+	font-size: 3.8em;
+	font-weight: 400;
+	width: 1200px;
+}
+
+section.top_page div.form_wrap {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
 
 section.feature {
 	display: block;
-	margin-top: 140px;
 	text-align: center;
 	padding:40px calc((100vw - 1200px) / 2);
 	background-image: url(../images/greyzz.png);
