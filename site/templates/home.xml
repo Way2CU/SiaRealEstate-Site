@@ -27,10 +27,9 @@
 			<section class="special_assets">
 				<cms:module
 					name="shop"
-					action="show_item_list"
-					category="special_assets"
-					template=""
-					
+					action="show_category"
+					text_id="special_assets"
+					template="parts/show_category.xml"
 					/>
 			</section>
 
