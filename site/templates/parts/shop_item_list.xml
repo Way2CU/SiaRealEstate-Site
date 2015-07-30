@@ -1,8 +1,8 @@
 <document>
-	<div class="asset">
+	<div class="asset" data-id="$section" cms:eval="data-id">
 
 		<a 
-			href="url_Make('','asset',array('id',$params['id']))" 
+			href="url_Make($section,'asset',array('id',$params['id']))" 
 			class="image" 
 			style="'background-image: url('.$params['image'].');'" 
 			cms:eval="style,href"
