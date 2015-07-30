@@ -58,16 +58,16 @@
 					</a>
 
 					<a
-						class="$section == 'asset-yaqov' ? 'active' : false"
-						href="url_Make('', 'asset-yaqov')"
+						class="$section == 'yaqov' ? 'active' : false"
+						href="url_Make('', 'yaqov')"
 						cms:eval="href"
 						cms:optional="class"
 						>
 						<cms:text constant="menu_yaqov"/>
 					</a>
 					<a
-						class="$section == 'asset-moshav' ? 'active' : false"
-						href="url_Make('', 'asset-moshav')"
+						class="$section == 'moshav' ? 'active' : false"
+						href="url_Make('', 'moshav')"
 						cms:eval="href"
 						cms:optional="class"
 						>
