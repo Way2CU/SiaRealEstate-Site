@@ -12,5 +12,8 @@
 	</section>
 	<section name="asset-moshav">
 		<language name="all" file="asset-moshav.xml" />
+	</section>
+	<section name="asset">
+		<language name="all" file="asset.xml" />
 	</section>			
 </document>
