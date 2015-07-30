@@ -24,6 +24,16 @@
 				</div>
 			</section>
 
+			<section class="special_assets">
+				<cms:module
+					name="shop"
+					action="show_item_list"
+					category="special_assets"
+					template=""
+					
+					/>
+			</section>
+
 			<section class="feature">
 				<cms:module
 					name="articles"
