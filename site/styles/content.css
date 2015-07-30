@@ -295,6 +295,7 @@ section.feature a {
 	text-decoration: none;
 	background-color: #3498db;
 	border:2px solid #2980b9;
+	border-radius: 8px;
 	position: relative;
 	transition: all 0.3s;
 	z-index: 1;
@@ -490,7 +491,7 @@ div.content_yaqov {
 
 div.content_yaqov h2 {
 	display: block;
-	padding-top:40px;
+	padding-top:20px;
 }
 
 
@@ -514,5 +515,5 @@ div.content_moshav {
 
 div.content_moshav h2 {
 	display: block;
-	padding-top:40px;
+	padding-top:20px;
 }
