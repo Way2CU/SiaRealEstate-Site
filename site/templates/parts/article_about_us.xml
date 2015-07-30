@@ -1,0 +1,14 @@
+<document>
+	<article>
+		<h2><cms:var param="title" multilanguage="yes"/></h2>
+		<cms:markdown param="content" multilanguage="yes"/>
+	</article>
+	<div class="images">
+		<cms:module
+			name="gallery"
+			action="show_image_list"
+			group="owners_images"
+			template="parts/image.xml"
+			/>
+	</div>
+</document>
