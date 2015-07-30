@@ -6,5 +6,11 @@
 	</section>
 	<section name="about">
 		<language name="all" file="about.xml" />
-	</section>	
+	</section>
+	<section name="asset-yaqov">
+		<language name="all" file="asset-yaqov.xml" />
+	</section>
+	<section name="asset-moshav">
+		<language name="all" file="asset-moshav.xml" />
+	</section>			
 </document>
