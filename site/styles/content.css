@@ -18,9 +18,11 @@ h2 {
 	font-size: 2.3em;
 }
 
+/*Home Page*/
+
 section.top_page {	
 	display: block;
-	margin-top: 140px;
+	margin-top: 139px;
 	text-align: center;
 	background-image: url(../images/header-background-03.jpg);
 	background-repeat: no-repeat;
@@ -250,4 +252,50 @@ div.testimonail_wrap article p:before {
 	height: 0;
 	z-index: -1;
 
+}
+
+/*About us page*/
+
+section.about_header {
+	display: block;
+	margin-top: 139px;
+	background-image: url(../images/Country-summer.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:1920px 400px;
+	min-height: 400px; 
+}
+
+div.content {
+	display: block;
+	padding:40px calc((100vw - 1200px) / 2);
+}
+
+div.content article {
+	display:inline-block;
+	vertical-align:top;
+	width: 60%; 
+}
+
+div.content article p {
+	padding-bottom: 10px;
+}
+
+div.content article p:last-of-type {
+	padding-bottom: 0px;
+}
+
+div.content div.images {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 40%;
+}
+
+div.content div.images img {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-right: 10px;
+	border:1px solid #34495e;
 }
