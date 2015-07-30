@@ -1,7 +1,13 @@
 <document>
 	<div class="asset">
 
-		<a href="javascript:void(0)" class="image" style="'background-image: url('.$params['image'].');'" cms:eval="style">		
+		<a 
+			href="url_Make('','asset',array('id',$params['id']))" 
+			class="image" 
+			style="'background-image: url('.$params['image'].');'" 
+			cms:eval="style,href"
+			>
+
 			<div class="stats">
 				<cms:markdown param="description" multilanguage="yes"/>		
 			</div>
