@@ -72,7 +72,7 @@ div.asset:last-of-type {
 	margin-bottom: 40px;
 }
 
-div.asset  a.phone {
+div.asset a.phone {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
@@ -96,7 +96,7 @@ div.asset  a.phone {
 	z-index: 1;	
 }
 
-div.asset  a.phone:before {
+div.asset a.phone:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -433,7 +433,55 @@ div.content div.images {
 div.content div.images img {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 10px;
-	margin-right: 10px;
-	border:1px solid #34495e;
+	margin-top: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #34495e;
+}
+
+/*beer yaqov page*/
+
+section.beer_yaqov_header {
+	display: block;
+	margin-top: 139px;
+	background-image: url(../images/beer-yaakov-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:1920px 400px;
+	min-height: 400px;	
+}
+
+div.content_yaqov {
+	display: block;
+	text-align: center;
+	padding:0px calc((100vw - 1200px) / 2);
+}
+
+div.content_yaqov h2 {
+	display: block;
+	padding-top:40px;
+}
+
+
+/*Moshav page*/
+
+section.moshav_header {
+	display: block;
+	margin-top: 139px;
+	background-image: url(../images/moshavim-background-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:1920px 400px;
+	min-height: 400px;		
+}
+
+div.content_moshav {
+	display: block;
+	text-align: center;
+	padding:0px calc((100vw - 1200px) / 2);
+}
+
+div.content_moshav h2 {
+	display: block;
+	padding-top:40px;
 }
