@@ -1,17 +1,36 @@
 <document>
 	<div class="asset">
+
 		<a href="javascript:void(0)" class="image" style="'background-image: url('.$params['image'].');'" cms:eval="style">		
 			<div class="stats">
 				<cms:markdown param="description" multilanguage="yes"/>		
 			</div>
 		</a>
-		<a
-			href="'tel:'.urlencode(Language::getText('yaniv_number'))"
-			cms:eval="href"
-			class="phone"
-			>
-			<cms:text constant="yaniv_number"/>
-		</a>
-		<span><cms:text constant="yaniv_title"/></span>
+
+		<cms:if condition="$params['priority'] == 2">
+			<a
+				href="'tel:'.urlencode(Language::getText('ina_number'))"
+				cms:eval="href"
+				class="phone"
+				>
+				<cms:text constant="ina_number"/>
+			</a>
+
+			<span><cms:text constant="ina_title"/></span>
+
+		</cms:if>
+
+		<cms:if condition="$params['priority'] == 3">
+			<a
+				href="'tel:'.urlencode(Language::getText('yaniv_number'))"
+				cms:eval="href"
+				class="phone"
+				>
+				<cms:text constant="yaniv_number"/>
+			</a>
+			<span><cms:text constant="yaniv_title"/></span>
+
+		</cms:if>		
+
 	</div>
 </document>
