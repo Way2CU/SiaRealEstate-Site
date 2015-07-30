@@ -7,12 +7,22 @@
 			</div>
 		</a>
 
+		<cms:if condition="$params['priority'] == 1">
+			<a class="sold">
+				<cms:text constant="sold"/>
+			</a>
+
+			<span><cms:text constant="sold_message"/></span>
+
+		</cms:if>
+
 		<cms:if condition="$params['priority'] == 2">
 			<a
 				href="'tel:'.urlencode(Language::getText('ina_number'))"
 				cms:eval="href"
 				class="phone"
 				>
+				<cms:svg file="../images/phone-woman.svg"/>
 				<cms:text constant="ina_number"/>
 			</a>
 
@@ -26,6 +36,7 @@
 				cms:eval="href"
 				class="phone"
 				>
+				<cms:svg file="../images/phone-man.svg"/>
 				<cms:text constant="yaniv_number"/>
 			</a>
 			<span><cms:text constant="yaniv_title"/></span>
