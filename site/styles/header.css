@@ -53,7 +53,7 @@ header div.site_logo a.social_link {
 }
 
 header div.site_logo a.social_link:hover {
-	color:#1A59DD;
+	color:#3498db;
 }
 
 
@@ -65,8 +65,8 @@ header div.site_logo a.social_link svg {
 	transition:all 0.3s;
 }
 
-header div.site_logo a.social_link:hover svg {
-	fill:#1A59DD;
+header div.site_logo a.social_link:hover svg path {
+	fill:#3498db;
 }
 header div.navigation {
 	display: table-cell;
