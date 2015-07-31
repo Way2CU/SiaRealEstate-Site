@@ -2,18 +2,24 @@
 <!DOCTYPE document SYSTEM "../units/schema/section.dtd">
 <document>
 	<section name="home">
-		<language name="all" file="home.xml" />
+		<language name="all">
+		<action name="_default" file="home.xml"/>	
+		<action name="view" file="asset.xml"/>
+		</language>		
 	</section>
 	<section name="about">
 		<language name="all" file="about.xml" />
 	</section>
 	<section name="yaqov">
-		<language name="all" file="yaqov.xml" />
+		<language name="all">
+		<action name="_default" file="yaqov.xml"/>	
+		<action name="view" file="asset.xml"/>
+		</language>	
 	</section>
 	<section name="moshav">
-		<language name="all" file="moshav.xml" />
-	</section>
-	<section name="asset">
-		<language name="all" file="asset.xml" />
-	</section>			
+		<language name="all">
+		<action name="_default" file="moshav.xml"/>	
+		<action name="view" file="asset.xml"/>
+		</language>	
+	</section>		
 </document>
