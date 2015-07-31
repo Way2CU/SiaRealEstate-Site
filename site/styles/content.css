@@ -517,3 +517,36 @@ div.content_moshav h2 {
 	display: block;
 	padding-top:20px;
 }
+
+/*Asset Details Page*/
+
+section.product {
+	display: block;
+	text-align: right;
+	margin-top: 159px;
+	padding:0px calc((100vw - 1200px) / 2);
+	color:black;
+	position: relative;
+}
+
+section.product figure {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    min-height: 330px;
+}
+
+section.product div.information {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 5%;
+	width: 40%;
+}
+
+
