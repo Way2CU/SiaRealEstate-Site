@@ -8,14 +8,14 @@
 		/>
 	<h2><cms:var param="title" multilanguage="yes"/></h2>
 	<a
-		href="url_Make('', 'asset-yaqov')"
+		href="url_Make('', 'yaqov')"
 		cms:eval="href"
 		cms:optional="class"
 		>
 		<cms:text constant="menu_yaqov"/>
 	</a>
 	<a
-		href="url_Make('', 'asset-moshav')"
+		href="url_Make('', 'moshav')"
 		cms:eval="href"
 		cms:optional="class"
 		>
