@@ -1,0 +1,9 @@
+<document>
+	<a 
+		href="javascript:void(0)"
+		data-image="$params['image']"
+		style="'background-image: url('.$params['image'].');'"
+		cms:eval="style,data-image"
+		>	
+	</a>
+</document>
