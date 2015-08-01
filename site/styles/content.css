@@ -537,16 +537,35 @@ section.product h2 {
 	padding-bottom: 20px;
 }
 
-section.product figure {
-    display: inline-block;
-    vertical-align: top;
-    text-align: right;
+div.product_gallery {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 50%;
+}
+
+div.product_gallery figure {
+    display:block;
     margin: 0px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    width: 50%;
+    width: 100%;
     min-height: 330px;
+    transition:all 0.5s;
+}
+
+div.product_gallery a {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 20%;
+	height: 80px;
 }
 
 section.product div.information {
@@ -555,6 +574,20 @@ section.product div.information {
 	text-align: right;
 	margin-right: 5%;
 	width: 40%;
+}
+
+section.product div.information div.description {
+	display: block;
+	padding-top: 10px;
+}
+
+section.product div.information div.description p{
+	display: none;
+}
+
+section.product div.information div.description p:nth-child(n+5) {
+	display: block;
+	padding-bottom: 10px;
 }
 
 section.product div.information div.basic_info {
