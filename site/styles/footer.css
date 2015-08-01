@@ -106,6 +106,7 @@ form label select {
 	color:white;
 	background-color: rgba(255, 255, 255, 0.2);
 	transition: all 0.3s;
+	height: 58px;
 }
 
 form label select option {
