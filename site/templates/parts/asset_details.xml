@@ -1,11 +1,20 @@
 <document>
 	<section class="product" >
 		<h2><cms:var param="name" multilanguage="yes"/></h2>
-		<figure
-			style="'background-image: url('.$params['image'].');'" 
-			cms:eval="style"
-			>	
-		</figure>
+		<div class="product_gallery">
+			<figure
+				style="'background-image: url('.$params['image'].');'" 
+				cms:eval="style"
+				>	
+			</figure>
+			<cms:module
+				name="gallery"
+				action="show_image_list"
+				group_id="$params['gallery']"
+				template="parts/product_gallery_image.xml"
+				cms:eval="group_id"
+				/>
+		</div>
 		<div class="information">
 			<div class="basic_info">
 				<cms:markdown param="description" multilanguage="yes"/>
@@ -48,7 +57,9 @@
 						<span><cms:text constant="yaniv_title"/></span>
 					</div>
 				</cms:if>
-			
+			<div class="description">
+				<cms:markdown param="description" multilanguage="yes"/>
+			</div>
 			
 		</div>
 	</section>
