@@ -11,39 +11,42 @@
 				<cms:markdown param="description" multilanguage="yes"/>
 			</div>
 				<cms:if condition="$params['priority'] == 1">
-					<a class="sold">
-						<cms:text constant="sold"/>
-					</a>
+					<div class="call">
+						<a class="sold">
+							<cms:text constant="sold"/>
+						</a>
 
-					<span><cms:text constant="sold_message"/></span>
-
+						<span><cms:text constant="sold_message"/></span>
+					</div>	
 				</cms:if>
 
 				<cms:if condition="$params['priority'] == 2">
-					<a
-						href="'tel:'.urlencode(Language::getText('ina_number'))"
-						cms:eval="href"
-						class="phone"
-						>
-						<cms:svg file="../images/phone-woman.svg"/>
-						<cms:text constant="ina_number"/>
-					</a>
-
-					<span><cms:text constant="ina_title"/></span>
+					<div class="call">
+						<a
+							href="'tel:'.urlencode(Language::getText('ina_number'))"
+							cms:eval="href"
+							class="phone"
+							>
+							<cms:svg file="../images/phone-woman.svg"/>
+							<cms:text constant="ina_number"/>
+						</a>
+						<span><cms:text constant="ina_title"/></span>
+					</div>
 
 				</cms:if>
 
 				<cms:if condition="$params['priority'] == 3">
-					<a
-						href="'tel:'.urlencode(Language::getText('yaniv_number'))"
-						cms:eval="href"
-						class="phone"
-						>
-						<cms:svg file="../images/phone-man.svg"/>
-						<cms:text constant="yaniv_number"/>
-					</a>
-					<span><cms:text constant="yaniv_title"/></span>
-
+					<div class="call">
+						<a
+							href="'tel:'.urlencode(Language::getText('yaniv_number'))"
+							cms:eval="href"
+							class="phone"
+							>
+							<cms:svg file="../images/phone-man.svg"/>
+							<cms:text constant="yaniv_number"/>
+						</a>
+						<span><cms:text constant="yaniv_title"/></span>
+					</div>
 				</cms:if>
 			
 			
