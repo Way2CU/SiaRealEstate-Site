@@ -310,6 +310,7 @@ div.asset a.image div.stats p:nth-child(n+5){
 section.feature {
 	display: block;
 	text-align: center;
+    padding-bottom: 20px;
 	background-image: url(../images/greyzz.png);
 	background-repeat: repeat;
 	background-position: center center;
