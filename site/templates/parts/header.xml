@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
+	<!-- Desktop Veersion -->
+	<cms:desktop>
 	<header>
 		<div class="header_container">
 			<div class="site_logo">
@@ -78,4 +80,72 @@
 			</div>
 		</div>
 	</header>
+	</cms:desktop>
+
+	<!-- Mobile header version -->
+
+	<cms:mobile>
+		<header>
+			<div class="mobile_title">
+				<a href="javascript:void(0)" class="menu"></a>
+				<a href="url_Make('', 'home')" class="logo" cms:eval="href"></a>
+			</div>
+			<nav class="mobile_menu">
+				<a
+						class="$section == 'home' ? 'active' : false"
+						href="url_Make('', 'home')"
+						cms:eval="href"
+						cms:optional="class"
+						>
+						<cms:text constant="menu_home"/>
+					</a>
+					<a
+						class="$section == 'about' ? 'active' : false"
+						href="url_Make('', 'about')"
+						cms:eval="href"
+						cms:optional="class"
+						>
+						<cms:text constant="menu_about"/>
+					</a>
+
+					<a
+						class="$section == 'yaqov' ? 'active' : false"
+						href="url_Make('', 'yaqov')"
+						cms:eval="href"
+						cms:optional="class"
+						>
+						<cms:text constant="menu_yaqov"/>
+					</a>
+					<a
+						class="$section == 'moshav' ? 'active' : false"
+						href="url_Make('', 'moshav')"
+						cms:eval="href"
+						cms:optional="class"
+						>
+						<cms:text constant="menu_moshav"/>
+					</a>
+					<a
+						href="'tel:'.urlencode(Language::getText('yaniv_number'))"
+						cms:eval="href"
+						class="phone_yaniv"
+						>
+						<cms:text constant="phone_yaniv"/>
+					</a>
+					<a
+						href="'tel:'.urlencode(Language::getText('ina_number'))"
+						cms:eval="href"
+						class="phone_inna"
+						>
+						<cms:text constant="phone_ina"/>
+					</a>
+					<a 
+						href="javascript:void(0)"
+						class="social_link"
+						>
+						<cms:text constant="facebook"/>
+						<cms:svg file="../images/facebook.svg"/>
+					</a>					
+			</nav>
+		</header>
+	</cms:mobile>
 </document>
