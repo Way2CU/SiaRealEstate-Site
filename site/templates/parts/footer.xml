@@ -4,15 +4,30 @@
 	<footer>
 		<div class="footer_wrap">
 			<h2><cms:text constant="footer_title"/></h2>
+			<cms:desktop>
+				<div class="form_wrap">
+						<p><cms:text constant="form_title"/></p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact"
+							/>
+				</div>
+			</cms:desktop>
 		</div>
-		<div class="form_wrap">
-				<p><cms:text constant="form_title"/></p>
-				<cms:module
-					name="contact_form"
-					action="show"
-					text_id="contact"
-					/>
+
+		<cms:mobile>
+			<div class="form_wrap">
+					<p><cms:text constant="form_title"/></p>
+					<cms:module
+						name="contact_form"
+						action="show"
+						text_id="contact"
+						/>
 			</div>
+			
+		</cms:mobile>
+
 		<div class="copyright">
 			<span><cms:text constant="copyright"/></span>
 		</div>
