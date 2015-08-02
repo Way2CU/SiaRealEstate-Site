@@ -629,6 +629,54 @@ section.product div.call a {
     z-index: 1;
 }
 
+section.product div.call a.sold {
+	display: inline-block;
+	vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    background-color:#bf382a;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+section.product div.call a.sold:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50%;
+	background-color: #bf382a;
+	transition: all 0.3s;
+	z-index: -1;
+}
+
+section.product div.call a.sold:after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50%;
+	background-color: #bf382a;
+	transition: all 0.3s;
+	z-index: -1;
+}
+
 section.product div.call a:before {
 	content: "";
 	position: absolute;
@@ -666,6 +714,10 @@ section.product div.call a svg {
     vertical-align: middle;
     width: 30px;
     height: 30px;
- }  
+ }
+
+section.product div.call span {
+	display: block;
+}   
 
 
