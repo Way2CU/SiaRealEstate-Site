@@ -16,7 +16,7 @@
 				
 			</section>
 
-			<div class="content_moshav">
+			<div class="content_yaqov">
 				<h2><cms:text constant="beer_yaqov_assets_title"/></h2>
 				<cms:module
 					name="shop"
