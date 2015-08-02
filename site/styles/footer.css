@@ -11,18 +11,19 @@
  	text-align: center;
  }
 
- div.footer_wrap {
- 	display: block;
- 	background-image: url(../images/footer-background-03.jpg);
- 	background-repeat: no-repeat;
- 	background-position: center top;
- 	min-height: 700px;
+footer div.footer_wrap {
+    display: block;
+    padding-top: 148px;
+    background-image: url(../images/footer-background-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 550px;
+    position: relative;
  }
 
-div.footer_wrap h2 {
+footer div.footer_wrap h2 {
 	display: block;
-	margin-top: 20px;
-	padding-top: 180px;
+	padding-top: 150px;
 	background-image: url(../images/logo-white.svg);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -31,8 +32,12 @@ div.footer_wrap h2 {
 }
 
 
-div.form_wrap {
+footer div.form_wrap {
 	display: block;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 100%;
 	padding-bottom: 20px;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -40,7 +45,7 @@ div.form_wrap {
 
 div.form_wrap p {
 	display: block;
-	padding-top: 20px;	
+	padding-top: 10px;	
 	padding-bottom: 10px;
 	color:white;
 }
