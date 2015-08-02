@@ -14,15 +14,27 @@
 
 			<section class="top_page">
 				<h1><cms:text constant="home_page_title"/></h1>
-				<div class="form_wrap">
-					<p><cms:text constant="form_title"/></p>
-					<cms:module
-						name="contact_form"
-						action="show"
-						text_id="contact"
-						/>
-				</div>
+				<cms:desktop>
+					<div class="form_wrap">
+						<p><cms:text constant="form_title"/></p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact"
+							/>
+					</div>
+				</cms:desktop>
 			</section>
+			<cms:mobile>
+				<div class="form_wrap">
+						<p><cms:text constant="form_title"/></p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact"
+							/>
+					</div>
+			</cms:mobile>
 
 			<section class="special_assets">
 				<cms:module
