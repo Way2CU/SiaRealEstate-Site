@@ -718,6 +718,44 @@ section.product div.call a svg {
 
 section.product div.call span {
 	display: block;
-}   
+} 
 
 
+ /*Tablet Version*/
+
+@media all and (max-width: 1024px) and (min-width: 768px){
+	header div.header_container {
+		width: auto;
+	}
+
+	section.top_page h1 {
+		width: auto;
+		padding-right: 15px;
+	}
+
+	section.feature article {
+		width: 200px;
+	}
+
+	div.content article {
+		padding-right: 15px;
+		width: calc(60% - 15px);
+	}
+
+	section.product div.call a {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	section.product h2 {
+		padding-right: 15px;
+	}
+
+	div.product_gallery {
+	    display: inline-block;
+	    vertical-align: top;
+	    text-align: center;
+	    padding-right: 15px;
+	    width: calc(50% - 15px);
+	}
+}
