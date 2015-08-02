@@ -1,11 +1,11 @@
 ---
 site:
-  domain: sample.com
+  domain: c-bait.co.il
   make_alias: false
   root: httpdocs
-  username: "sample"
+  username: "c_bait"
   caracal_branch: develop
-  # ip_address: 0.0.0.0
+  ip_address: 198.251.79.74
   # owner: Some Person
   # plan: Unlimited
 
