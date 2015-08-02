@@ -482,3 +482,252 @@ div.testimonail_wrap article p:before {
 	height: 0;
 	z-index: -1;
 }
+
+/*About us page*/
+
+section.about_header {
+	display: block;
+	margin-top: 65px;
+	background-image: url(../images/Country-summer.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:100% auto;
+	min-height: 65px; 
+}
+
+div.content {
+	display: block;
+	padding-bottom: 10px;
+}
+
+div.content article {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%; 
+}
+
+div.content article p {
+	padding-bottom: 10px;
+	font-size: 0.9em;
+}
+
+div.content div.images {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+	text-align: center;
+	width: 95%;
+}
+
+div.content div.images img {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 1px solid #34495e;
+}
+
+/*beer yaqov page*/
+
+section.beer_yaqov_header {
+	display: block;
+	margin-top: 65px;
+	background-image: url(../images/beer-yaakov-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:100% auto;
+	min-height: 65px;	
+}
+
+div.content_yaqov {
+	display: block;
+	text-align: center;
+}
+
+div.content_yaqov h2 {
+	display: block;
+	text-align: center;
+
+}
+
+/*Moshav page*/
+
+section.moshav_header {
+	display: block;
+	margin-top: 65px;
+	background-image: url(../images/moshavim-background-01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:100% auto;
+	min-height: 65px;		
+}
+
+div.content_moshav {
+	display: block;
+	text-align: center;
+}
+
+div.content_moshav h2 {
+	display: block;
+}
+
+/*Asset Details Page*/
+
+section.product {
+	display: block;
+	text-align: right;
+	margin-top: 65px;
+	padding-bottom: 20px;
+	color:black;
+	position: relative;
+}
+
+section.product h2 {
+    display: block;
+    text-align: center;
+    color: #34495e;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.product_gallery {
+	display:block;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width:95%;
+}
+
+div.product_gallery figure {
+    display:block;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 200px;
+    transition:all 0.5s;
+}
+
+
+div.product_gallery a {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 20%;
+	height: 50px;
+}
+
+section.product div.information {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	width: 95%;
+}
+
+section.product div.information div.description {
+	display: block;
+	padding-top: 10px;
+}
+
+section.product div.information div.description p{
+	display: none;
+}
+
+section.product div.information div.description p:nth-child(n+5) {
+	display: block;
+	padding-bottom: 10px;
+}
+
+section.product div.information div.basic_info {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;	
+}
+
+section.product div.information div.basic_info p:nth-child(n+5) {
+	display: none;
+}
+
+section.product div.information div.call {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 95%;
+}
+
+section.product div.call a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #2ecc71;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+    width: 170px;
+    z-index: 1;
+}
+
+section.product div.call a.sold {
+	display: inline-block;
+	vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    background-color:#bf382a;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+    width: 170px;
+    z-index: 1;
+}
+
+section.product div.call a svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+ }
+
+section.product div.call span {
+	display: block;
+} 
+
+
+
