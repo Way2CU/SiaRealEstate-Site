@@ -57,9 +57,9 @@ form {
 form label {
 	display: inline-block;
 	vertical-align: middle;
-	border:1px solid white;
 	position: relative;
 }
+
 
 form label:first-of-type:before {
 	content: "";
@@ -87,31 +87,42 @@ form label:nth-of-type(2):before {
 	height: 50px;
 }
 
-form label:first-of-type {
-	border-radius: 0px 8px 8px 0px;
-}
-
 form label input {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 40px;
-	border:none;
+	border:1px solid white;
+	border-left: none;
 	color:white;
   	background-color: rgba(255, 255, 255, 0.2);
 	transition:all 0.3s
 }
 
+form label:first-of-type input {
+	border-radius: 0px 8px 8px 0px;
+}
+
+
+form label input:focus {
+	background-color:#27ae60;
+}
+
 form label select {
 	display: inline-block;
 	vertical-align: middle;
-	padding-top: 19px;
-	padding-bottom: 19px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-right: 20px;
-	border: none;
+	border:1px solid white;
+	border-left: none;
 	color:white;
 	background-color: rgba(255, 255, 255, 0.2);
 	transition: all 0.3s;
-	height: 58px;
+	height: 60px;
+}
+
+form label select:focus {
+	background-color:#27ae60;	
 }
 
 form label select option {
