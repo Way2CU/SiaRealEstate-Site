@@ -10,21 +10,47 @@
         mode=0775
 
 - name: Uploading site data
-  copy: src={{ local_site_directory }}/site/data
-        dest={{ site_directory }}/site/data
+  copy: src={{ local_site_directory }}/data
+        dest={{ site_directory }}/site
 
 - name: Uploading site scripts
-  copy: src={{ local_site_directory }}/site/scripts
-        dest={{ site_directory }}/site/scripts
+  copy: src={{ local_site_directory }}/scripts
+        dest={{ site_directory }}/site
 
 - name: Uploading site styles
-  copy: src={{ local_site_directory }}/site/styles
-        dest={{ site_directory }}/site/styles
+  copy: src={{ local_site_directory }}/styles
+        dest={{ site_directory }}/site
 
 - name: Uploading site templates
-  copy: src={{ local_site_directory }}/site/templates
-        dest={{ site_directory }}/site/templates
+  copy: src={{ local_site_directory }}/templates
+        dest={{ site_directory }}/site
 
-- name: Updating configuration file
-  template: src=config.php
-            dest={{ site_directory }}/site/config.php
+- name: Uploading site configuration file
+  copy: src={{ local_site_directory }}/config.php
+        dest={{ site_directory }}/site/config.php
+
+- name: Configuring time zone
+  lineinfile: dest={{ site_directory }}/site/config.php
+              regexp="^define\('_TIMEZONE', '.*'\);"
+              line="define('_TIMEZONE', '{{ timezone }}');"
+
+- name: Configuring database host
+  lineinfile: dest={{ site_directory }}/site/config.php
+              regexp="^\s+'host'\s=>\s'.*',"
+              line="		'host' => '{{ database.host }}',"
+
+- name: Configuring database username
+  lineinfile: dest={{ site_directory }}/site/config.php
+              regexp="^\s+'user'\s=>\s'.*',"
+              line="		'user' => '{{ database.username }}',"
+
+- name: Configuring database password
+  lineinfile: dest={{ site_directory }}/site/config.php
+              regexp="^\s+'pass'\s=>\s'.*',"
+              line="		'pass' => '{{ database.password }}',"
+
+- name: Configuring database name
+  lineinfile: dest={{ site_directory }}/site/config.php
+              regexp="^\s+'name'\s=>\s'.*'"
+              line="		'name' => '{{ database.name }}'"
+
