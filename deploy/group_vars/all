@@ -1,9 +1,9 @@
 ---
 site:
-  domain: c-bait.co.il
+  domain: cbait.co.il
   make_alias: false
   root: httpdocs
-  username: "c_bait"
+  username: "cbait_admin"
   caracal_branch: develop
   ip_address: 198.251.79.74
   # owner: Some Person
