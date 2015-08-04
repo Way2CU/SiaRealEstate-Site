@@ -58,6 +58,7 @@ form label {
 	display: inline-block;
 	vertical-align: middle;
 	border:1px solid white;
+	border-left: none;
 	position: relative;
 }
 
