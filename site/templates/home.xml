@@ -7,10 +7,10 @@
 			<title><cms:text constant="site_title"/></title>
 			<cms:collection include="page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
-			<meta property="og:title" content="שיא נדלן צגשים חלומות"/>
+			<meta property="og:title" content="שיא נדלן מגשים חלומות"/>
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="http://cbait.co.il" />
-			<meta property="og:image" content="http://talart.co.il/site/images/header-background-03.jpg"/>			
+			<meta property="og:image" content="http://cbait.co.il/site/images/header-background-03.jpg"/>			
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
