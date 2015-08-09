@@ -558,7 +558,7 @@ div.product_gallery figure {
     margin: 0px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: 100% auto;
     width: 100%;
     min-height: 330px;
     transition:all 0.5s;
