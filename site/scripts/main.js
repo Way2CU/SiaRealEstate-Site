@@ -59,11 +59,11 @@ Site.on_load = function() {
 	.setInterval(6000)
 	.setWrapAround(true);
 
-	// Function Displaying Asset Big Image in Asset detail page
+	//Function Displaying Asset Big Image in Asset detail page
 	function showImage() {
 		var item = $(this);
 		var myurl = item.data('image');
-		var bImage = $('div.product_gallery figure').css('background-image','url(' + myurl + ')');
+		var bImage = $('div.product_gallery figure img').attr('src',myurl);
 	}
 
 	var images = $('div.product_gallery a');
