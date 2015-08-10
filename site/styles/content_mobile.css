@@ -607,12 +607,16 @@ div.product_gallery {
 div.product_gallery figure {
     display:block;
     margin: 0px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     width: 100%;
-    min-height: 200px;
+    height: 200px;
     transition:all 0.5s;
+    overflow: hidden;
+}
+
+div.product_gallery figure img {
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 

@@ -783,4 +783,8 @@ section.product div.call span {
 	    padding-right: 15px;
 	    width: calc(50% - 15px);
 	}
+
+	div.product_gallery figure {
+		width: 100%;
+	}
 }
