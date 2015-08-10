@@ -139,7 +139,7 @@
 						<cms:text constant="phone_ina"/>
 					</a>
 					<a 
-						href="javascript:void(0)"
+						href="https://www.facebook.com/sharer/sharer.php?u=cbait.co.il" 
 						class="social_link"
 						>
 						<cms:text constant="facebook"/>
