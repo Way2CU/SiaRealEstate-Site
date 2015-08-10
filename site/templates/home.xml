@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+op<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<cms:var name="_DOCTYPE"/>
@@ -8,6 +8,7 @@
 			<cms:collection include="page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
 			<meta property="og:title" content="שיא נדלן מגשים חלומות"/>
+			<meta property="og:description" content="אנחנו ביחד כמשפחה אחת תומכת, נלווה אתכם יד ביד, לעבר המטרה שלכם"/>
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="http://cbait.co.il" />
 			<meta property="og:image" content="http://cbait.co.il/site/images/header-background-03.jpg"/>			
