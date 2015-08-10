@@ -2,10 +2,8 @@
 	<section class="product" >
 		<h2><cms:var param="name" multilanguage="yes"/></h2>
 		<div class="product_gallery">
-			<figure
-				style="'background-image: url('.$params['image'].');'" 
-				cms:eval="style"
-				>	
+			<figure>
+				<img src="$params['image']" alt="" cms:eval="src"/>
 			</figure>
 			<cms:module
 				name="gallery"
