@@ -112,13 +112,16 @@ form label select {
 	vertical-align: middle;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-right: 20px;
+	padding-right: 10px;
+	padding-left: 30px;
 	border:1px solid white;
 	border-left: none;
 	color:white;
 	background-color: rgba(255, 255, 255, 0.2);
 	transition: all 0.3s;
 	height: 60px;
+    -webkit-appearance: none;
+    -moz-appearance: none;    
 }
 
 form label select:focus {
