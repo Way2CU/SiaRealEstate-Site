@@ -110,6 +110,10 @@ form label input:focus {
 form label select {
 	display: inline-block;
 	vertical-align: middle;
+	background-image: url(../images/triangle-white.svg);
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	background-size: 10px 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 10px;
