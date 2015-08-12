@@ -432,7 +432,7 @@ div.testimonail_wrap {
 	margin-left: auto;
 	margin-right: auto;
 	width: 95%;
-	height: 350px;
+	height: 250px;
 	position:relative;
 }
 
@@ -458,6 +458,7 @@ div.testimonail_wrap article h4 {
 
 div.testimonail_wrap article p {
 	display: block;
+	text-align: right;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 20px;
