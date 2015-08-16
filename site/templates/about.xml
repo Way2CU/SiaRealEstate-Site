@@ -15,7 +15,7 @@
 				<section class="about_header">
 					
 				</section>
-				<div class="content">
+				<div class="about">
 					<cms:module
 						name="articles"
 						action="show"
