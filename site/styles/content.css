@@ -446,33 +446,33 @@ section.about_header {
 	min-height: 400px; 
 }
 
-div.content {
+div.about {
 	display: block;
 	padding:40px calc((100vw - 1200px) / 2);
 }
 
-div.content article {
+div.about article {
 	display:inline-block;
 	vertical-align:top;
 	width: 60%; 
 }
 
-div.content article p {
+div.about article p {
 	padding-bottom: 10px;
 }
 
-div.content article p:last-of-type {
+div.about article p:last-of-type {
 	padding-bottom: 0px;
 }
 
-div.content div.images {
+div.about div.images {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
 	width: 40%;
 }
 
-div.content div.images img {
+div.about div.images img {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 50px;
@@ -763,7 +763,7 @@ section.product div.call span {
 		width: 200px;
 	}
 
-	div.content article {
+	div.about article {
 		padding-right: 15px;
 		width: calc(60% - 15px);
 	}

@@ -497,24 +497,24 @@ section.about_header {
 	min-height: 65px; 
 }
 
-div.content {
+div.about {
 	display: block;
 	padding-bottom: 10px;
 }
 
-div.content article {
+div.about article {
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 95%; 
 }
 
-div.content article p {
+div.about article p {
 	padding-bottom: 10px;
 	font-size: 0.9em;
 }
 
-div.content div.images {
+div.about div.images {
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
@@ -523,7 +523,7 @@ div.content div.images {
 	width: 95%;
 }
 
-div.content div.images img {
+div.about div.images img {
 	display: inline-block;
 	vertical-align: top;
 	width: 40%;
