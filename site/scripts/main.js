@@ -68,6 +68,14 @@ Site.on_load = function() {
 
 	var images = $('div.product_gallery a');
 	images.on('click',showImage);
+	
+	// handle analytics event
+	$('form').on('analytics-event', function(event, data) {
+		if (!data.error)
+			dataLayer.push({
+            	'event':'leadSent'
+            });
+	});
 };
 
 
