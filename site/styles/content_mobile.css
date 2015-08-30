@@ -616,8 +616,8 @@ div.product_gallery figure {
 
 div.product_gallery figure img {
 	display: block;
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
 }
 
 
