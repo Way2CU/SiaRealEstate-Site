@@ -616,8 +616,10 @@ div.product_gallery figure {
 
 div.product_gallery figure img {
 	display: block;
-	width: auto;
-	height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 100%;
 }
 
 
