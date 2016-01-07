@@ -23,11 +23,15 @@
 		<cms:raw file="parts/gtm.txt"/>
 			<cms:template file="parts/header.xml"/>
 
-			<section class="moshav_header">
-				
-			</section>
+			<cms:module
+				name="shop"
+				action="show_category"
+				id="fix_id($_REQUEST['id'])"
+				template="parts/category_image.xml"
+				cms:eval="id"
+				/>
 
-			<div class="content_moshav">
+			<div id="category_content">
 				
 				<h2>
 					<cms:module
