@@ -95,6 +95,10 @@ header div.navigation > a:hover {
 	color:#e67e22;
 }
 
+header div.navigation nav > a.active:before {
+	opacity: 1;
+}
+
 header div.navigation > a:before {
 	content: "";
 	position: absolute;
@@ -131,13 +135,27 @@ header div.navigation nav {
 	width: 100%;
 }
 
-header div.navigation nav a {
+nav#main ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+nav#main > ul > li {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 100%;
+	position: relative;
+}
+
+nav#main > ul > li > a {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	width: 25%;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 	color: #34495e;
 	text-decoration: none;
 	background-color: white;
@@ -146,29 +164,58 @@ header div.navigation nav a {
 	z-index: 1;
 }
 
-header div.navigation nav a:hover {
-	color:white;
+nav#main > ul > li:hover > a,
+nav#main > ul > li > a.active,
+nav#main > ul > li > a:hover {
+	background-color: #e67e22;
+	color: white;
 }
 
-header div.navigation nav a:hover:before {
-	opacity: 1;
-	height: 100%;
-}
-
-header div.navigation nav a:before {
-	content:"";
+nav#main ul li > ul.drop {
 	position: absolute;
-	bottom:0%;
-	left: 0px;
-	height:10px;
-	width: 100%;
+	top: 100%;
+	right: 0px;
+	max-height: 0px;
+
+	visibility: hidden;
 	opacity: 0;
-	background-color:#e67e22;
-	transition:all 0.3s;
-	z-index: -1; 
+	z-index: 100;
+	
+	border: 1px solid #e67e22;
+	background-color: white;
+	transition: all 0.6s;
+	transition-delay: 0.3s;
+
+	text-align: right;
 }
 
-header div.navigation nav a.active:before {
+nav#main ul li:hover ul.drop {
+	visibility: visible;
 	opacity: 1;
+	max-height: 400px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
+nav#main ul ul.drop li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 350px;
+}
+
+nav#main  ul  ul.drop  li  a {
+	display: block;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 100%;
+	color: #34495e;
+	transition: all 0.3s;
+}
+
+nav#main  ul  ul.drop  li:hover a {
+	background-color: #e67e22 ;
+	color: white ;
+}
