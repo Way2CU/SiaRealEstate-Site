@@ -18,7 +18,17 @@
 			</section>
 
 			<div class="content_moshav">
-				<h2><cms:text constant="moshav_assets_title"/></h2>
+				
+				<h2>
+					<cms:module
+						name="shop"
+						action="show_category"
+						id="fix_id($_REQUEST['id'])"
+						template="parts/category_name.xml"
+						cms:eval="id"
+						/>
+				</h2>
+
 				<cms:module
 					name="shop"
 					action="show_item_list"
