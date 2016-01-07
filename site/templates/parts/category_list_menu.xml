@@ -1,7 +1,7 @@
 <document>
-	<li class="$params['has_children'] ? 'sub-menu' : false" cms:optional="class">
+	<li >
 
-		<a href="url_Make('category','shop',array('id',$params['id']))" cms:eval="href">
+		<a href="javascript:void(0)">
 			<cms:var param="title" multilanguage="yes"/>	
 		</a>
 
