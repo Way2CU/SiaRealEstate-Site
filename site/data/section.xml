@@ -15,17 +15,5 @@
 			<action name="category" file="category.xml"/>
 			<action name="view" file="asset.xml"/>
 		</language>
-	</section>
-<!-- 	<section name="yaqov">
-		<language name="all">
-		<action name="_default" file="yaqov.xml"/>	
-		<action name="view" file="asset.xml"/>
-		</language>	
-	</section>
-	<section name="moshav">
-		<language name="all">
-		<action name="_default" file="moshav.xml"/>	
-		<action name="view" file="asset.xml"/>
-		</language>	
-	</section>	 -->	
+	</section>	
 </document>
