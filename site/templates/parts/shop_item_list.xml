@@ -2,7 +2,7 @@
 	<div class="asset">
 
 		<a 
-			href="url_Make('view',$section,array('id',$params['id']))" 
+			href="url_Make('view',asset,array('category', fix_id($_REQUEST['id'])),array('id',$params['id']))" 
 			class="image" 
 			style="'background-image: url('.$params['image'].');'" 
 			cms:eval="style,href"
