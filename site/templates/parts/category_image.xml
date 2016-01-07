@@ -1,0 +1,5 @@
+<document>
+	<section id="category_header" style="'background-image: url('.$params['image'].');'" cms:eval="style">
+
+	</section>
+</document>
