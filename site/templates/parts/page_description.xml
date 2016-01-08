@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE document SYSTEM "../../units/schema/language.dtd">
 <document>
 	<meta
 		name="description"
-		content="$params['description']['$language']"
+		content="$params['description'][$language]"
 		cms:eval="content"
-		cms:constant="content"
 		/>
 </document>
