@@ -1,0 +1,7 @@
+<document>
+		<cms:children
+			parent_id="$params['id']"
+			template="parts/sub_menu_links.xml"
+			cms:eval="parent_id"
+			/>	
+</document>
