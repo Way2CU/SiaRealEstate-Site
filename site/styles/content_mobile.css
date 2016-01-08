@@ -370,15 +370,13 @@ section.feature h2 {
 }
 
 section.feature a {
-	display: inline-block;
-	vertical-align: top;
+	display: block;
 	text-align: center;
+	margin-top: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
 	color: white;
 	font-size: 1.1em;
 	font-weight: 700;
@@ -532,49 +530,26 @@ div.about div.images img {
 	border: 1px solid #34495e;
 }
 
-/*beer yaqov page*/
+/*Category page*/
 
-section.beer_yaqov_header {
+section#category_header {
 	display: block;
 	margin-top: 65px;
-	background-image: url(../images/beer-yaakov-01.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size:100% auto;
 	min-height: 65px;	
 }
 
-div.content_yaqov {
+div#category_content {
 	display: block;
 	text-align: center;
 }
 
-div.content_yaqov h2 {
-	display: block;
-	text-align: center;
-
-}
-
-/*Moshav page*/
-
-section.moshav_header {
-	display: block;
-	margin-top: 65px;
-	background-image: url(../images/moshavim-background-01.jpg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size:100% auto;
-	min-height: 65px;		
-}
-
-div.content_moshav {
-	display: block;
-	text-align: center;
-}
-
-div.content_moshav h2 {
+div#category_content h2 {
 	display: block;
 }
+
 
 /*Asset Details Page*/
 
