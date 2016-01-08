@@ -22,7 +22,7 @@ h2 {
 
 section.top_page {	
 	display: block;
-	margin-top: 134px;
+	margin-top: 133px;
 	text-align: center;
 	background-image: url(../images/header-background-03.jpg);
 	background-repeat: no-repeat;
@@ -292,13 +292,12 @@ section.feature h2 {
 section.feature a {
 	display: inline-block;
 	vertical-align: top;
+	width: 200px;
 	text-align: center;
 	margin-left: 15px;
 	margin-right: 15px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 40px;
-	padding-right: 40px;
 	color:white;
 	font-size: 1.1em;
 	font-weight: 700;
@@ -438,7 +437,7 @@ div.testimonail_wrap article p:before {
 
 section.about_header {
 	display: block;
-	margin-top: 134px;
+	margin-top: 133px;
 	background-image: url(../images/Country-summer.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -485,7 +484,7 @@ div.about div.images img {
 
 section#category_header {
 	display: block;
-	margin-top: 134px;
+	margin-top: 133px;
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size:1920px 400px;
