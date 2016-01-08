@@ -7,18 +7,26 @@
 		cms:eval="group"
 		/>
 	<h2><cms:var param="title" multilanguage="yes"/></h2>
-	<a
-		href="url_Make('', 'yaqov')"
-		cms:eval="href"
-		cms:optional="class"
-		>
-		<cms:text constant="menu_yaqov"/>
-	</a>
-	<a
-		href="url_Make('', 'moshav')"
-		cms:eval="href"
-		cms:optional="class"
-		>
-		<cms:text constant="menu_moshav"/>
-	</a>		
+
+	<cms:module
+		name="shop"
+		action="show_category"
+		text_id="house"
+		template="parts/category_links.xml"
+		/>
+
+	<cms:module
+		name="shop"
+		action="show_category"
+		text_id="app"
+		template="parts/category_links.xml"
+		/>
+		
+	<cms:module
+		name="shop"
+		action="show_category"
+		text_id="moshav"
+		template="parts/category_links.xml"
+		/>
+		
 </document>
