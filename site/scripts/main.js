@@ -68,6 +68,17 @@ Site.on_load = function() {
 
 	var images = $('div.product_gallery a');
 	images.on('click',showImage);
+
+	// function for displaying drop down menu on tablets
+	var drop_down_links = $('li.sub-menu');
+	var drop_menu = $('ul.drop');
+
+	drop_down_links.on('click',function(){
+		var item = $(this);
+		item.find('ul.drop').addClass('active');
+		drop_down_links.not(item).find('ul.drop').removeClass('active');	
+
+	})
 	
 	// handle analytics event
 	$('form').on('analytics-event', function(event, data) {

@@ -1,5 +1,5 @@
 <document>
-	<li >
+	<li class="$params['has_children'] ? 'sub-menu' : false" cms:optional="class">
 
 		<a href="javascript:void(0)">
 			<cms:var param="title" multilanguage="yes"/>	
