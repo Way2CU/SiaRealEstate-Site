@@ -1,7 +1,7 @@
 <document>
 	<meta
 		name="description"
-		content="$params['description'][$language]"
+		content="limit_words(strip_tags(Core\Markdown::parse($params['description'][$language])))"
 		cms:eval="content"
 		/>
 </document>
