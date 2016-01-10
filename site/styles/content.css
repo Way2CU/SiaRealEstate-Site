@@ -721,6 +721,11 @@ section.product div.call span {
 		width: auto;
 	}
 
+	nav#main > ul > li > a {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 	section.top_page {
 		background-image: url(../images/ipad-background-01.jpg);
 		background-repeat: no-repeat;
