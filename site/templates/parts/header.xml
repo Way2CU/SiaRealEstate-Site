@@ -120,6 +120,7 @@
 					>
 					<cms:text constant="menu_home"/>
 				</a>
+				
 				<a
 					class="$section == 'about' ? 'active' : false"
 					href="url_Make('', 'about')"

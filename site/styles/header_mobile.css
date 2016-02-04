@@ -44,10 +44,12 @@ div.mobile_title a.logo {
 
 nav.mobile_menu {
 	text-align: left;
+	overflow-y: scroll; 
 }
 
 body.rtl nav.mobile_menu {
 	text-align: right;
+	overflow-y: scroll; 
 }
 
 nav.mobile_menu a {
