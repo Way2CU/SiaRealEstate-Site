@@ -217,6 +217,11 @@ div.asset a.image div.stats {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
+body.ltr div.asset a.image div.stats {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
 div.asset a.image div.stats p {
 	display: inline-block;
 	vertical-align: middle;
@@ -224,6 +229,10 @@ div.asset a.image div.stats p {
 	color:white;
 	width: 49%;
 	font-size: 1em;
+}
+
+body.ltr div.asset a.image div.stats p {
+	text-align: left;
 }
 
 div.asset a.image div.stats p:nth-child(n+5){
@@ -308,6 +317,12 @@ section.feature a {
 	position: relative;
 	transition: all 0.3s;
 	z-index: 1;
+}
+
+body.ltr section.feature a {
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 section.feature a:before {
@@ -420,6 +435,10 @@ div.testimonail_wrap article p {
 	z-index: 1;
 }
 
+body.ltr div.testimonail_wrap article p {
+	text-align: left;
+}
+
 div.testimonail_wrap article p:before {
 	content: "";
 	position: absolute;
@@ -515,6 +534,10 @@ section.product {
 	position: relative;
 }
 
+body.ltr section.product {
+	text-align: left;
+}
+
 section.product h2 {
 	display: block;
 	color:#34495e;
@@ -567,6 +590,12 @@ section.product div.information {
 	text-align: right;
 	margin-right: 5%;
 	width: 40%;
+}
+
+body.ltr section.product div.information {
+	margin-right: 0%;
+	margin-left: 5%;
+	text-align: left;
 }
 
 section.product div.information div.description {
