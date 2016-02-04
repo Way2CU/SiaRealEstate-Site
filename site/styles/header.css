@@ -32,7 +32,7 @@ header div.site_logo {
 
 header div.site_logo a.logo {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 	background-image: url(../images/logo-color.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -41,20 +41,50 @@ header div.site_logo a.logo {
 	height: 98px;
 }
 
+header div.language {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+header div.language a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 16px;
+	height: 16px;
+}
+
+header div.language a.en,
+header div.language a.ru,
+header div.language a.he {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 16px 16px;
+}
+
+header div.language a.he {
+	background-image: url(../images/israel-flag.png);
+}
+
+header div.language a.ru {
+	background-image: url(../images/russian.gif);
+}
+
+header div.language a.en {
+	background-image: url(../images/us.gif);
+}
+
 header div.site_logo a.social_link {
 	display: inline-block;
 	vertical-align: middle;
-	padding-top: 25px;
-	margin-right: 40px;
 	color: #3b5997;
 	text-decoration: none;
 	font-weight: 700;
 	transition:all 0.3s;
-}
-
-body.ltr header div.site_logo a.social_link {
-	margin-right: 0px;
-	margin-left: 40px;
 }
 
 header div.site_logo a.social_link:hover {
