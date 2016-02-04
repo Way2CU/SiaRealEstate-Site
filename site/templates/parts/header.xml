@@ -14,6 +14,14 @@
 					>
 				</a>
 
+				<div class="language">
+					<cms:module
+						name="language_menu"
+						action="print"
+						template="parts/language_links.xml"
+						/>
+				</div>
+
 				<a 
 					href="https://www.facebook.com/sharer/sharer.php?u=cbait.co.il" 
 					class="social_link"
