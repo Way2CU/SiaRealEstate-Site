@@ -87,6 +87,12 @@ form label:nth-of-type(2):before {
 	height: 50px;
 }
 
+body.ltr form label:nth-of-type(2):before,
+body.ltr form label:first-of-type:before {
+	right: auto;
+	left: -5px;
+}
+
 form label input {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -98,8 +104,19 @@ form label input {
 	transition:all 0.3s
 }
 
+body.ltr form label input {
+	padding-right: 0px;
+	padding-left: 40px;
+	border:1px solid white;
+	border-right: none;
+}
+
 form label:first-of-type input {
 	border-radius: 0px 8px 8px 0px;
+}
+
+body.ltr form label:first-of-type input {
+	border-radius: 8px 0px 0px 8px;
 }
 
 
@@ -126,6 +143,11 @@ form label select {
 	height: 60px;
     -webkit-appearance: none;
     -moz-appearance: none;    
+}
+
+body.ltr form label select {
+	border:1px solid white;
+	border-right: none;
 }
 
 form label select:focus {
@@ -171,6 +193,11 @@ form div.controls button {
   	background-color:#2ecc71;
 	transition:all 0.3s;
 	cursor:pointer;	
+}
+
+body.ltr form div.controls button {
+	border-radius: 0px 8px 8px 0px;
+	border:1px solid  white;
 }
 
 form div.controls button:hover {
