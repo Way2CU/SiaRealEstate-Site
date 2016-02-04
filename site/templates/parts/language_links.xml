@@ -1,0 +1,3 @@
+<document>
+	<a  class="$params['short_name']" href="$params['url']" cms:eval="href,class"></a>
+</document>
