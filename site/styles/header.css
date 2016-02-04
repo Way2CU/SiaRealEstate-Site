@@ -97,6 +97,10 @@ header div.navigation > a {
 	transition:all 0.3s;
 }
 
+body.ltr header div.navigation > a {
+	text-align: left;
+}
+
 header div.navigation > a:hover {
 	color:#e67e22;
 }
