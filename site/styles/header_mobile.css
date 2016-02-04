@@ -43,7 +43,11 @@ div.mobile_title a.logo {
 }
 
 nav.mobile_menu {
-	text-align: center;
+	text-align: left;
+}
+
+body.rtl nav.mobile_menu {
+	text-align: right;
 }
 
 nav.mobile_menu a {
@@ -64,6 +68,11 @@ nav.mobile_menu.visible a.phone_inna {
 	background-repeat: no-repeat;
 	background-position: 250px center;
 	background-size: 40px 40px;
+}
+
+body.rtl nav.mobile_menu.visible a.phone_inna,
+body.rtl nav.mobile_menu.visible a.phone_yaniv {
+	background-position: 150px center;
 }
 
 nav.mobile_menu.visible a.social_link svg {

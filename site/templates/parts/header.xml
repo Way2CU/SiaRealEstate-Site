@@ -108,65 +108,69 @@
 				<a href="url_Make('', 'home')" class="logo" cms:eval="href"></a>
 			</div>
 			<nav class="mobile_menu">
+				<cms:module
+					name="language_menu"
+					action="print"
+					/>
 				<a
-						class="$section == 'home' ? 'active' : false"
-						href="url_Make('', 'home')"
-						cms:eval="href"
-						cms:optional="class"
-						>
-						<cms:text constant="menu_home"/>
-					</a>
-					<a
-						class="$section == 'about' ? 'active' : false"
-						href="url_Make('', 'about')"
-						cms:eval="href"
-						cms:optional="class"
-						>
-						<cms:text constant="menu_about"/>
-					</a>
+					class="$section == 'home' ? 'active' : false"
+					href="url_Make('', 'home')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_home"/>
+				</a>
+				<a
+					class="$section == 'about' ? 'active' : false"
+					href="url_Make('', 'about')"
+					cms:eval="href"
+					cms:optional="class"
+					>
+					<cms:text constant="menu_about"/>
+				</a>
 
-					<cms:module
-						name="shop"
-						action="show_category"
-						text_id="house"
-						template="parts/category_links.xml"
-						/>
+				<cms:module
+					name="shop"
+					action="show_category"
+					text_id="house"
+					template="parts/category_links.xml"
+					/>
 
-					<cms:module
-						name="shop"
-						action="show_category"
-						text_id="app"
-						template="parts/category_links.xml"
-						/>
-						
-					<cms:module
-						name="shop"
-						action="show_category"
-						text_id="moshav"
-						template="parts/category_links.xml"
-						/>
+				<cms:module
+					name="shop"
+					action="show_category"
+					text_id="app"
+					template="parts/category_links.xml"
+					/>
+					
+				<cms:module
+					name="shop"
+					action="show_category"
+					text_id="moshav"
+					template="parts/category_links.xml"
+					/>
 
-					<a
-						href="'tel:'.urlencode(Language::getText('yaniv_number'))"
-						cms:eval="href"
-						class="phone_yaniv"
-						>
-						<cms:text constant="phone_yaniv"/>
-					</a>
-					<a
-						href="'tel:'.urlencode(Language::getText('ina_number'))"
-						cms:eval="href"
-						class="phone_inna"
-						>
-						<cms:text constant="phone_ina"/>
-					</a>
-					<a 
-						href="https://www.facebook.com/sharer/sharer.php?u=cbait.co.il" 
-						class="social_link"
-						>
-						<cms:text constant="facebook"/>
-						<cms:svg file="../images/facebook.svg"/>
-					</a>					
+				<a
+					href="'tel:'.urlencode(Language::getText('yaniv_number'))"
+					cms:eval="href"
+					class="phone_yaniv"
+					>
+					<cms:text constant="phone_yaniv"/>
+				</a>
+				<a
+					href="'tel:'.urlencode(Language::getText('ina_number'))"
+					cms:eval="href"
+					class="phone_inna"
+					>
+					<cms:text constant="phone_ina"/>
+				</a>
+				<a 
+					href="https://www.facebook.com/sharer/sharer.php?u=cbait.co.il" 
+					class="social_link"
+					>
+					<cms:text constant="facebook"/>
+					<cms:svg file="../images/facebook.svg"/>
+				</a>					
 			</nav>
 		</header>
 	</cms:mobile>
