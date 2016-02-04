@@ -12,13 +12,13 @@
  }
 
 footer div.footer_wrap {
-    display: block;
-    padding-top: 148px;
-    background-image: url(../images/footer-background-03.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    min-height: 550px;
-    position: relative;
+	display: block;
+	padding-top: 148px;
+	background-image: url(../images/footer-background-03.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	min-height: 550px;
+	position: relative;
  }
 
 footer div.footer_wrap h2 {
@@ -141,8 +141,8 @@ form label select {
 	background-color: rgba(255, 255, 255, 0.2);
 	transition: all 0.3s;
 	height: 60px;
-    -webkit-appearance: none;
-    -moz-appearance: none;    
+	-webkit-appearance: none;
+	-moz-appearance: none;    
 }
 
 body.ltr form label select {

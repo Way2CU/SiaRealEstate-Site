@@ -23,18 +23,18 @@ footer div.footer_wrap {
 }
 
 footer div.footer_wrap h2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding-top: 115px;
-    background-image: url(../images/logo-white.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 200px 115px;
-    font-size: 1.8em;
-    width: 80%;
-    color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 115px;
+	background-image: url(../images/logo-white.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 200px 115px;
+	font-size: 1.8em;
+	width: 80%;
+	color: white;
 }
 
 footer div.copyright {
