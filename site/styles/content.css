@@ -44,6 +44,11 @@ section.top_page h1 {
 	width: 1200px;
 }
 
+body.ltr section.top_page h1 {
+	text-align: left;
+	font-size: 3em;
+}
+
 section.top_page div.form_wrap {
 	position: absolute;
 	bottom: 0px;
