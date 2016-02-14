@@ -755,6 +755,16 @@ section.product div.call span {
 		width: auto;
 	}
 
+	body.ltr header div.navigation > a {
+		margin-right: 10px;
+		padding-right: 60px;
+	}
+
+	body.ltr nav#main > ul > li > a {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
 	nav#main > ul > li > a {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -765,7 +775,6 @@ section.product div.call span {
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size:cover; 
-
 	}
 
 	section.top_page h1 {
